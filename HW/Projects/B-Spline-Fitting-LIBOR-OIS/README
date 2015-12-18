@@ -1,0 +1,13 @@
+Fitted LIBOR and OIS Curves to the Market Benchmark data Using B-Spline Method
+
+Authors:
+	Xiaofeng Gu
+	Zhenfeng Liang
+
+All rights reserved.
+
+Under Application folder, there would be a fitted curve file and the respective C++ Excel AddIn.
+
+
+To run the program in C++, you just need to run the make file.
+
