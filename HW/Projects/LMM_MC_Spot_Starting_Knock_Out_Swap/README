@@ -1,0 +1,19 @@
+Monte Carlo for Spot Starting Knock-Out Swap's Pricing under LIBOR Market Model
+
+Authors:
+Xiaofeng Gu
+Zhenfeng Liang
+
+All rights reserved.
+
+To run this program:
+
+1: run the make file.
+
+2: In bin file, there will be a test_Swap output. This receive three arguments. [exact_calculation, path_number, anti-variate]
+   "Y" means exact calculation, "F" means frozen curve approximation.
+   path_number is an integer.
+   "Y" means use anti variate variance reduction method, "F" doesn't use it.
+   
+3: In the XLL_Project_final, there would be two files. One called "source" is the file which contains the Excel Wrapper code.
+   Another called x_64_Release have the excel Interface and the corresponding Monte Carlo calculation's AddIn.
